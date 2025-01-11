@@ -1,0 +1,22 @@
+.header {
+}
+
+.nav {
+}
+
+.nav-list {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-link {
+    color: var(--font-color-grey);
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.nav-link:hover {
+    color:var(--color-main-black);
+}
