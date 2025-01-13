@@ -16,19 +16,19 @@
             <nav class="nav" aria-label="header navigation">
                 <ul class="nav-list" aria-label="header navigation list">
                     <li>
-                        <a href="#" class="nav-link" aria-label="link to Home">Home</a>
+                        <a href="#home" class="nav-link" aria-label="link to Home">Home</a>
                     </li>
                     <li>
-                        <a href="#" class="nav-link" aria-label="link to about">About</a>
+                        <a href="#about" class="nav-link" aria-label="link to about">About</a>
                     </li>
                     <li>
-                        <a href="#" class="nav-link" aria-label="link to history">History</a>
+                        <a href="#history" class="nav-link" aria-label="link to history">History</a>
                     </li>
                     <li>
-                        <a href="#" class="nav-link" aria-label="link to portfolio">Portfolio</a>
+                        <a href="#portfolio" class="nav-link" aria-label="link to portfolio">Portfolio</a>
                     </li>
                     <li>
-                        <a href="#" class="nav-link" aria-label="link to contacts">Contacts</a>
+                        <a href="#contacts" class="nav-link" aria-label="link to contacts">Contacts</a>
                     </li>
                 </ul>
             </nav>
@@ -37,7 +37,7 @@
     </header>
 
     <main aria-label="main">
-        <section class="home" aria-label="home-section">
+        <section class="home" aria-label="home-section" id="home">
             <div class="container">
                 <h1 class="home-title" aria-label="title">Ivan Constantinovich Aivazovski</h1>
                 <p class="home-description" aria-label="description">Russian marine painter of Armenian origin, collector, philanthropist</p>
@@ -46,7 +46,7 @@
 
         </section>
 
-        <section class="about">
+        <section class="about" aria-label="about section" id="about">
             <div class="container">
                 <h2 class="about-title" aria-label="about-title">About</h2>
                 <h3 class="about-subtitle-ru" aria-label="about-subtitle-ru">Ива́н Константи́нович Айвазо́вский – русский живописец-маринист армянского происхождения, коллекционер, меценат.</h3>
@@ -59,11 +59,25 @@
             </div>
         </section>
 
-        <section class="history-section" aria-label="history section">
+        <section class="history-section" aria-label="history section" id="history">
             <div class="container">
                 <h2 class="history-title">History</h2>
                 <img src="Assets/webp/bornhouse.webp" alt="bornhouse" class="history-photo">
-                <p class="history-description">Дом в котором родился Айвазовский | The house where Aivazovsky was born </p>
+                <p class="history-description" aria-label="description text">Дом в котором родился Айвазовский | The house where Aivazovsky was born </p>
+            </div>
+        </section>
+
+        <section class="portfolio" aria-label="portfolio section" id="portfolio">
+            <div class="container">
+                <h2 class="portfolio-title">Portfolio</h2>
+                    <img src="Assets/webp/winter.webp" alt="Winter wagon train on the way" class="portfolio-picture">
+                    <p class="portfolio-description" aria-label="portfolio picture 1">Зимний обоз в пути, 1857 г. | Winter wagon train on the way, 1857</p>
+
+                    <img src="Assets/webp/rainbow.webp" alt="Rainbow" class="portfolio-picture">
+                    <p class="portfolio-description" aria-label="portfolio picture 2">Радуга, 1873 г. | Rainbow, 1873</p>
+
+                    <img src="Assets/webp/morning.webp" alt="Winter wagon train on the way" class="portfolio-picture">
+                    <p class="portfolio-description" aria-label="portfolio picture 3">Неаполитанский залив утром, 1893 г. | Gulf of Naples in the morning, 1893</p>
             </div>
         </section>
 
