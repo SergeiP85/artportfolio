@@ -17,13 +17,13 @@
 
     <!-- mobile nav -->
 
-    <symbol width="33" height="20" viewBox="0 0 33 20" id="burger-icon">
+    <symbol viewBox="0 0 33 20" id="burger-icon">
         <line x1="0" y1="2" x2="33" y2="2" stroke="#000" stroke-width="3"/>
         <line x1="0" y1="9" x2="33" y2="9" stroke="#000" stroke-width="3"/>
         <line x1="0" y1="16" x2="33" y2="16" stroke="#000" stroke-width="3"/>
     </symbol>
 
-    <symbol width="23" height="23" viewBox="0 0 23 23" id="cross-icon">
+    <symbol viewBox="0 0 23 23" id="cross-icon">
         <line x1="0" y1="0" x2="23" y2="23" stroke="#000" stroke-width="3"/>
         <line x1="0" y1="23" x2="23" y2="0" stroke="#000" stroke-width="3"/>
     </symbol>

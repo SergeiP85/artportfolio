@@ -39,10 +39,36 @@
     <div class="mobile-navigation" aria-label="mobile navigation">
         <label for="toggler-id">
             <svg class="mobile-navigation-burger" aria-label="open-close mobile nav menu">
-                <use href="Assets/sprites.svg#cross-id"></use>
+                <use href="Assets/sprites.svg#burger-icon"></use>
             </svg>
         </label>
         <input type="checkbox" id="toggler-id" class="mobile-navigation-toggler">
+            <nav class="mobile-nav-menu" aria-label="mobile navigation menu">
+                <ul class="mobile-nav-list" aria-label="mobile navigation list">
+                    <li>
+                        <a href="#home" class="mobile-nav-link" aria-label="link to Home">Home</a>
+                    </li>
+                    <li>
+                        <a href="#about" class="mobile-nav-link" aria-label="link to about">About</a>
+                    </li>
+                    <li>
+                        <a href="#history" class="mobile-nav-link" aria-label="link to history">History</a>
+                    </li>
+                    <li>
+                        <a href="#portfolio" class="mobile-nav-link" aria-label="link to portfolio">Portfolio</a>
+                    </li>
+                    <li>
+                        <a href="#contacts" class="mobile-nav-link" aria-label="link to contacts">Contacts</a>
+                    </li>
+                </ul>
+
+                <label for="toggler-id" class="mobile-nav-close">
+                    <svg class="mobile-navigation-cross" aria-label="open-close mobile nav menu">
+                        <use href="Assets/sprites.svg#cross-icon"></use>
+                    </svg>
+                </label>
+            </nav>
+
     </div>
 
     <main aria-label="main">
